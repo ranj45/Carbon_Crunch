@@ -1,0 +1,746 @@
+body{
+
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+.line {
+    align-self: stretch;
+    width: 1px;
+    position: relative;
+    border-right: 1px solid #fff;
+    
+    box-sizing: border-box;
+}
+.verticle-lines-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 0px;
+}
+.lines-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+}
+.horizontal-lines-container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.line-container {
+    position: absolute;
+    height: 178.11%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: -78.11%;
+    left: 0%;
+}
+.highlited-box-icon {
+    position: absolute;
+    height: 93.97%;
+    width: 94.43%;
+    top: 5.01%;
+    right: 5.57%;
+    bottom: 1.02%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+.fade-out-bottom {
+    position: absolute;
+    height: 100.19%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: -0.19%;
+    left: 0%;
+    background: linear-gradient(180deg, rgba(40, 179, 14, 0) 58.6%, rgba(40, 179, 14, 0.5));
+}
+.abstract-backgroung {
+    position: absolute;
+    top: calc(50% - 481px);
+    left: calc(50% - 726px);
+    width: 1452px;
+    height: 1000px;
+    overflow: hidden;
+}
+.earth-icon {
+    position: absolute;
+    top: 0px;
+    left: 48px;
+    width: 1224px;
+    height: 762.8px;
+    object-fit: cover;
+}
+.ghg-accounting {
+    
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+.ghg-accounting-scope-container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: -0.05em;
+}
+.track-minimize-offset {
+    width: 784px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    display: inline-block;
+}
+.ghg-accounting-scope-1-scope-parent {
+    position: absolute;
+    top: 198px;
+    left: calc(50% - 624px);
+    width: 1248px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 27px;
+}
+.earth-parent {
+    position: absolute;
+    top: 179px;
+    left: 60px;
+    border-radius: 24px;
+    background-color: #28b30e;
+    width: 1320px;
+    height: 629px;
+    overflow: hidden;
+    font-size: 81px;
+    font-family: 'Aeonik TRIAL';
+}
+.home {
+    position: relative;
+    font-weight: 500;
+}
+.services {
+    position: relative;
+    font-weight: 500;
+    color: #222;
+}
+.home-parent {
+    width: 497px;
+    border-radius: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    gap: 0px;
+    cursor: pointer;
+}
+.login {
+    position: relative;
+    letter-spacing: 0.02em;
+}
+.login-wrapper {
+    width: 134px;
+    border-radius: 6px;
+    background-color: #d6ffd0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 22px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.login-wrapper:hover{
+    background-color: #239c0c;
+    color: black;
+}
+
+
+.book-demo-wrapper {
+    border-radius: 6px;
+    background-color: #28b30e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 22px;
+    color: #000;
+    cursor: pointer;
+}
+
+.book-demo-wrapper:hover{
+    background-color: #d6ffd0;
+    color: #239c0c;
+}
+
+.frame-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 16px;
+    text-align: left;
+    color: #28b30e;
+}
+.frame-parent {
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 261.5px);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 141px;
+}
+.measure {
+    position: relative;
+    letter-spacing: -0.01em;
+}
+.frame-child {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    object-fit: cover;
+}
+.ghg-accounting- {
+    width: 187px;
+    position: relative;
+    letter-spacing: -0.01em;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.group-parent {
+    border-radius: 8px;
+    background-color: #28b30e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px;
+    gap: 10px;
+    color: #000;
+}
+.measure-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.group-container {
+    height: 42px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.frame-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #000;
+}
+.frame-container {
+    position: absolute;
+    top: 117px;
+    left: 326px;
+    box-shadow: 0px 4px 51.3px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+    background-color: #fff;
+    width: 802px;
+    overflow: hidden;
+    display: none;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 33px 24px;
+    box-sizing: border-box;
+    gap: 0px;
+    text-align: left;
+}
+.desktop-1 {
+    width: 100%;
+    position: relative;
+    background-color: #f5f6fa;
+    height: 874px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 16px;
+    color: #2d2d2d;
+    font-family: 'DM Sans';
+}
+
+.desktop-8-child {
+    position: absolute;
+    top: 44px;
+    left: 570px;
+    filter: blur(993px);
+    border-radius: 50%;
+    background-color: #ffde2b;
+    width: 362px;
+    height: 362px;
+   
+    font-family: 'DM Sans', sans-serif;
+}
+.why-carboncrunch {
+    position: relative;
+}
+.why-carboncrunch-wrapper {
+    width: 216px;
+    border-radius: 23px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 35px;
+    box-sizing: border-box;
+}
+.leading-sustainability-with {
+    align-self: stretch;
+    position: relative;
+   
+    font-family: 'DM Sans', sans-serif;
+}
+.ghg-greenhouse-gas {
+    width: 832px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'DM Sans';
+    color: #3a3a3a;
+    display: inline-block;
+}
+.leading-sustainability-with-ca-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 48px;
+    color: #2d2d2d;
+    font-family: 'Aeonik TRIAL';
+}
+.frame-parent2 {
+    position: absolute;
+    top: 115px;
+    left: 155px;
+    width: 1130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 34px;
+}
+.frame-child2 {
+    width: 60px;
+    position: relative;
+    height: 60px;
+    object-fit: cover;
+}
+.governments-and-regulatory {
+    align-self: stretch;
+    position: relative;
+    font-size: 16px;
+    font-family: 'DM Sans';
+    color: #2d2d2d;
+}
+.regulatory-compliance-and-repo-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.group-parent2 {
+    flex: 1;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+}
+
+.group-parent2:hover{
+    transform: translateY(-5px);
+}
+
+
+
+.frame-container2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.group-parent2 {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 12px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+}
+.frame-group2 {
+    position: absolute;
+    top: 415px;
+    left: 60px;
+    width: 1320px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 24px;
+    color: #28b30e;
+    font-family: 'Aeonik TRIAL';
+}
+.desktop-8 {
+    width: 100%;
+    position: relative;
+    background-color: #f5f6fa;
+    height: 1056px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #239c0c;
+    font-family: 'DM Sans';
+}
+
+
+
+
+
+
+.employee-1-icon {
+    position: absolute;
+    top: calc(50% - 212.7px);
+    left: calc(50% - 461.04px);
+    border-radius: 19.23px 19.23px 0px 0px;
+    width: 922.9px;
+    height: 506.3px;
+    object-fit: cover;
+}
+.employee-1-wrapper {
+    position: absolute;
+    top: 539.9px;
+    left: calc(50% - 501px);
+    border-radius: 19.23px 19.23px 0px 0px;
+    background: linear-gradient(180deg, #28b30e, rgba(40, 179, 14, 0));
+    width: 1003px;
+    height: 499.1px;
+    overflow: hidden;
+}
+.how-it-works {
+    position: relative;
+}
+.how-it-works-wrapper {
+    width: 216px;
+    border-radius: 23px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 35px;
+    box-sizing: border-box;
+}
+.getting-started-is {
+    align-self: stretch;
+    position: relative;
+}
+.how-carboncrunch-saas {
+    width: 718px;
+    position: relative;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'DM Sans';
+    display: inline-block;
+}
+.getting-started-is-easy-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 48px;
+    color: #2d2d2d;
+    
+    font-family: 'DM Sans', sans-serif;
+}
+.frame-parent3 {
+    position: absolute;
+    top: 45px;
+    left: 155px;
+    width: 1130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 25px;
+    
+    font-family: 'DM Sans', sans-serif;
+}
+.frame-child3 {
+    width: 171px;
+    position: relative;
+    border-top: 3px solid #28b30e;
+    box-sizing: border-box;
+    height: 6px;
+}
+.div {
+    position: relative;
+    font-weight: 900;
+}
+.track-and-manage {
+    position: relative;
+    letter-spacing: 0.02em;
+   
+    font-family: 'DM Sans', sans-serif;
+}
+.parent3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    
+
+}
+.set {
+    align-self: stretch;
+    position: relative;
+    font-family: 'DM Sans', sans-serif;
+    color: #000;
+    display: -webkit-inline-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* -webkit-line-clamp: 2; */
+    -webkit-box-orient: vertical;
+    transform:  rotate(0.2deg);
+}
+.frame-container3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.line-parent3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    color: #28b30e;
+    
+    font-family: 'DM Sans', sans-serif;
+}
+.frame-item3 {
+    align-self: stretch;
+    position: relative;
+    border-top: 3px solid #afafaf;
+    box-sizing: border-box;
+    height: 8px;
+    opacity: 0;
+}
+.line-group3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+.frame-group3 {
+    position: absolute;
+    top: 287px;
+    left: 97px;
+    border-radius: 16px;
+    background-color: #fff;
+    width: 1283px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 24px;
+    box-sizing: border-box;
+    gap: 28px;
+    text-align: left;
+    font-size: 16px;
+    color: #2d2d2d;
+    font-family: 'Nunito Sans';
+}
+.desktop-3 {
+    width: 100%;
+    position: relative;
+    background-color: #f5f6fa;
+    height: 1027px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #239c0c;
+    
+    
+ 
+}
+
+
+
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .earth-parent, .frame-parent, .frame-parent2, .frame-group2, .frame-parent3, .frame-group3 {
+        width: 90%;
+        left: 5%;
+    }
+
+    .ghg-accounting-scope-1-scope-parent, .leading-sustainability-with-ca-parent, .getting-started-is-easy-parent {
+        gap: 20px;
+    }
+
+    .ghg-accounting-scope-container, .track-minimize-offset, .ghg-greenhouse-gas, .how-carboncrunch-saas {
+        font-size: 20px;
+    }
+
+    .why-carboncrunch-wrapper, .how-it-works-wrapper {
+        width: 180px;
+        padding: 8px 25px;
+    }
+
+    .employee-1-wrapper {
+        width: 90%;
+        left: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .earth-parent, .frame-parent, .frame-parent2, .frame-group2, .frame-parent3, .frame-group3 {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    .ghg-accounting-scope-1-scope-parent, .leading-sustainability-with-ca-parent, .getting-started-is-easy-parent {
+        gap: 15px;
+    }
+
+    .ghg-accounting-scope-container, .track-minimize-offset, .ghg-greenhouse-gas, .how-carboncrunch-saas {
+        font-size: 18px;
+    }
+
+    .why-carboncrunch-wrapper, .how-it-works-wrapper {
+        width: 150px;
+        padding: 6px 20px;
+    }
+
+    .employee-1-wrapper {
+        width: 95%;
+        left: 2.5%;
+    }
+
+    .frame-group, .frame-parent, .frame-group2, .frame-group3 {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .home-parent, .login-wrapper, .book-demo-wrapper {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .frame-container, .frame-container2, .frame-container3 {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .earth-parent, .frame-parent, .frame-parent2, .frame-group2, .frame-parent3, .frame-group3 {
+        width: 100%;
+        left: 0;
+    }
+
+    .ghg-accounting-scope-1-scope-parent, .leading-sustainability-with-ca-parent, .getting-started-is-easy-parent {
+        gap: 10px;
+    }
+
+    .ghg-accounting-scope-container, .track-minimize-offset, .ghg-greenhouse-gas, .how-carboncrunch-saas {
+        font-size: 16px;
+    }
+
+    .why-carboncrunch-wrapper, .how-it-works-wrapper {
+        width: 130px;
+        padding: 5px 15px;
+    }
+
+    .employee-1-wrapper {
+        width: 100%;
+        left: 0;
+    }
+
+    .frame-group, .frame-parent, .frame-group2, .frame-group3 {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .home-parent, .login-wrapper, .book-demo-wrapper {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .frame-container, .frame-container2, .frame-container3 {
+        padding: 15px;
+    }
+
+    .ghg-accounting-scope-container, .track-minimize-offset, .ghg-greenhouse-gas, .how-carboncrunch-saas {
+        font-size: 14px;
+    }
+}
